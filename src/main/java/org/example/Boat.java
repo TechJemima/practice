@@ -5,11 +5,13 @@ public class Boat extends Vehicle {
     String color = "orange";
     double speed = 22.55;
 
-
-
     @Override
-    void start() {
-        System.out.println("this boat starts moving late in the morning and on water");
-
+    void drive() {
+        System.out.println("This boat is for the sea");
     }
+//    @Override
+//    void start() {
+//        System.out.println("this boat starts moving late in the morning and on water");
+//
+//    }
 }

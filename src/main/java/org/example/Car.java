@@ -6,7 +6,11 @@ public class Car extends Vehicle {
     String color = "White";
     double speed = 28.99;
 
-    void stop() {
-        System.out.println("this vehicle does not stop frequently");
+    @Override
+    void drive() {
+        System.out.println("This car drives with 4 passengers on land");
     }
-}
+    //void stop() {
+     //   System.out.println("this vehicle does not stop frequently");
+    }
+//}
